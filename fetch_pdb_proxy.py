@@ -7,7 +7,7 @@ import re
 #*************************************************************************************************
 kv={'user-agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'}
 ips=[]
-path=os.getcwd().replace('\\','/')+'/ipsrx.txt'
+path=os.getcwd().replace('\\','/')+'/ip.txt'
 with open(path,'r') as f:
     for ip in f:
         ips.append(ip.strip('\n'))
